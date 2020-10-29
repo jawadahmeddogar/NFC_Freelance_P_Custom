@@ -51,6 +51,7 @@ namespace NFC_Freelance_P_Custom
 		public MainPage()
 		{
 			InitializeComponent();
+			BindingContext = this;
 		}
 
 		protected async override void OnAppearing()
